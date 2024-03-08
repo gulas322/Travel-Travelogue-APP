@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="namespace.travelnote.activity"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="15" />
+
+    <application android:icon="@drawable/logo" android:label="@string/app_name">
+        <activity android:name=".Login"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"
+                  android:label="@string/app_name">
+        </activity>	
+		<activity  android:name=".Sysset"
+			android:label="@string/sysset">
+		</activity>
+		<activity  android:name=".BearDiary"
+			android:label="@string/beardiary">
+		</activity>
+		<activity android:label="@string/addoutaccount" 
+		          android:name=".AddOutaccount"> 
+		</activity>
+		<activity android:label="@string/outaccountinfo" 
+		          android:name=".Outaccountinfo"> 
+        </activity>
+		<activity android:label="@string/flagmanage" 
+		    android:name=".FlagManage"> 
+		</activity>
+		<activity android:label="@string/showinfo" 
+		    android:name=".Showinfo">
+		</activity>        
+		<activity android:label="@string/infomanage" 
+                  android:name=".InfoManage"> 
+        </activity>
+        <activity android:label="@string/photo" 
+                  android:name=".Photo"> 
+        </activity> 
+
+    </application>
+</manifest>
